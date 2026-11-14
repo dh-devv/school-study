@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="510" viewBox="0 0 1000 510" role="img" aria-labelledby="title description">
+  <title id="title">상태 변화와 열의 출입</title>
+  <desc id="description">고체에서 액체로의 융해, 액체에서 기체로의 기화, 고체에서 기체로의 승화는 열을 흡수한다. 반대 방향인 응고, 액화, 기체에서 고체로의 승화는 열을 방출한다.</desc>
+  <defs>
+    <marker id="absorb-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#b33324"/>
+    </marker>
+    <marker id="release-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1757a6"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="510" fill="#ffffff"/>
+  <g font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" text-anchor="middle">
+    <text x="500" y="34" font-size="25" font-weight="700" fill="#172333">상태 변화와 열의 출입</text>
+    <text x="500" y="64" font-size="17" fill="#465365">입자의 배치는 이해를 돕기 위한 모식도</text>
+
+    <path d="M 145 171 V 105 H 855 V 160" fill="none" stroke="#b33324" stroke-width="4" marker-end="url(#absorb-arrow)"/>
+    <text x="500" y="96" font-size="19" font-weight="700" fill="#b33324">승화 · 열 흡수</text>
+
+    <rect x="45" y="172" width="200" height="168" rx="14" fill="#edf4ff" stroke="#8ba9ca" stroke-width="2"/>
+    <rect x="400" y="172" width="200" height="168" rx="14" fill="#edf4ff" stroke="#8ba9ca" stroke-width="2"/>
+    <rect x="755" y="172" width="200" height="168" rx="14" fill="#edf4ff" stroke="#8ba9ca" stroke-width="2"/>
+    <g font-size="24" font-weight="700" fill="#172333">
+      <text x="145" y="207">고체</text>
+      <text x="500" y="207">액체</text>
+      <text x="855" y="207">기체</text>
+    </g>
+    <g fill="#396a9c">
+      <circle cx="117" cy="248" r="10"/><circle cx="145" cy="248" r="10"/><circle cx="173" cy="248" r="10"/>
+      <circle cx="117" cy="276" r="10"/><circle cx="145" cy="276" r="10"/><circle cx="173" cy="276" r="10"/>
+      <circle cx="117" cy="304" r="10"/><circle cx="145" cy="304" r="10"/><circle cx="173" cy="304" r="10"/>
+      <circle cx="474" cy="262" r="10"/><circle cx="497" cy="253" r="10"/><circle cx="520" cy="266" r="10"/>
+      <circle cx="461" cy="287" r="10"/><circle cx="485" cy="283" r="10"/><circle cx="510" cy="290" r="10"/><circle cx="535" cy="287" r="10"/>
+      <circle cx="474" cy="312" r="10"/><circle cx="499" cy="312" r="10"/><circle cx="524" cy="312" r="10"/>
+      <circle cx="796" cy="240" r="10"/><circle cx="867" cy="229" r="10"/><circle cx="919" cy="257" r="10"/>
+      <circle cx="829" cy="279" r="10"/><circle cx="891" cy="294" r="10"/><circle cx="797" cy="316" r="10"/><circle cx="925" cy="321" r="10"/>
+    </g>
+
+    <g fill="none" stroke-width="4">
+      <path d="M 260 245 H 385" stroke="#b33324" marker-end="url(#absorb-arrow)"/>
+      <path d="M 385 305 H 260" stroke="#1757a6" marker-end="url(#release-arrow)"/>
+      <path d="M 615 245 H 740" stroke="#b33324" marker-end="url(#absorb-arrow)"/>
+      <path d="M 740 305 H 615" stroke="#1757a6" marker-end="url(#release-arrow)"/>
+    </g>
+    <g font-size="17" font-weight="700">
+      <text x="322" y="232" fill="#b33324">융해 · 흡수</text>
+      <text x="322" y="334" fill="#1757a6">응고 · 방출</text>
+      <text x="677" y="232" fill="#b33324">기화 · 흡수</text>
+      <text x="677" y="334" fill="#1757a6">액화 · 방출</text>
+    </g>
+
+    <path d="M 855 340 V 402 H 145 V 352" fill="none" stroke="#1757a6" stroke-width="4" marker-end="url(#release-arrow)"/>
+    <text x="500" y="433" font-size="19" font-weight="700" fill="#1757a6">승화 · 열 방출</text>
+    <text x="500" y="475" font-size="17" fill="#465365">화살표는 물질의 상태가 변하는 방향을 나타냅니다.</text>
+  </g>
+</svg>
