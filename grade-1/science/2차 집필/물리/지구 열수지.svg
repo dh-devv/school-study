@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="510" viewBox="0 0 1000 510" role="img" aria-labelledby="title description">
+  <title id="title">지구의 복사 평형과 열수지</title>
+  <desc id="description">태양 복사 에너지 100 중 30은 반사 또는 산란되어 우주로 돌아가고 70은 지표와 대기에 흡수된다. 지구는 70을 우주로 방출한다.</desc>
+  <defs>
+    <marker id="sun-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#b97900"/>
+    </marker>
+    <marker id="out-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1757a6"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="510" fill="#ffffff"/>
+  <g font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" text-anchor="middle">
+    <text x="500" y="38" font-size="26" font-weight="700" fill="#172333">지구의 복사 평형</text>
+    <text x="500" y="70" font-size="17" fill="#465365">들어오는 태양 복사 에너지를 100으로 나타낸 모식도</text>
+    <circle cx="105" cy="145" r="44" fill="#ffd367" stroke="#b97900" stroke-width="3"/>
+    <text x="105" y="152" font-size="22" font-weight="700" fill="#6c4800">태양</text>
+    <rect x="260" y="315" width="520" height="105" rx="18" fill="#eaf4fb" stroke="#8ba9ca" stroke-width="2"/>
+    <text x="520" y="351" font-size="23" font-weight="700" fill="#172333">지구: 지표와 대기</text>
+    <text x="520" y="385" font-size="20" fill="#465365">태양 복사 에너지 70 흡수</text>
+    <path d="M 157 160 L 333 300" fill="none" stroke="#b97900" stroke-width="5" marker-end="url(#sun-arrow)"/>
+    <text x="215" y="211" font-size="19" font-weight="700" fill="#8a5a00">태양 복사</text>
+    <text x="215" y="236" font-size="19" font-weight="700" fill="#8a5a00">100</text>
+    <path d="M 450 303 L 450 140" fill="none" stroke="#1757a6" stroke-width="5" marker-end="url(#out-arrow)"/>
+    <text x="450" y="112" font-size="19" font-weight="700" fill="#1757a6">반사·산란 30</text>
+    <path d="M 670 303 L 670 140" fill="none" stroke="#1757a6" stroke-width="5" marker-end="url(#out-arrow)"/>
+    <text x="670" y="112" font-size="19" font-weight="700" fill="#1757a6">지구 복사 70</text>
+    <text x="500" y="468" font-size="19" font-weight="700" fill="#172333">흡수 70 = 우주로 방출 70</text>
+  </g>
+</svg>
