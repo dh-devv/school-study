@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="800" viewBox="0 0 1000 800" role="img" aria-labelledby="title description">
+  <title id="title">평상시와 엘니뇨 비교</title>
+  <desc id="description">평상시 무역풍은 동쪽에서 서쪽으로 불고 따뜻한 물은 서쪽에 모이며 동쪽에서 용승이 활발하다. 엘니뇨 때 무역풍과 용승이 약해지고 따뜻한 물과 비가 오는 지역이 동쪽으로 퍼진다.</desc>
+  <defs>
+    <marker id="wind" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#465365"/>
+    </marker>
+    <marker id="water" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1757a6"/>
+    </marker>
+    <marker id="warm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#a33b23"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="800" fill="#ffffff"/>
+  <g font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" text-anchor="middle">
+    <text x="500" y="38" font-size="26" font-weight="700" fill="#172333">태평양의 평상시와 엘니뇨</text>
+    <text x="500" y="68" font-size="17" fill="#465365">적도 부근 태평양의 단면을 단순화한 모식도</text>
+
+    <rect x="30" y="90" width="940" height="320" rx="14" fill="#f8fbff" stroke="#b9cadb" stroke-width="2"/>
+    <text x="68" y="121" text-anchor="start" font-size="22" font-weight="700" fill="#172333">평상시</text>
+    <text x="210" y="151" font-size="18" font-weight="700" fill="#465365">서태평양</text>
+    <text x="790" y="151" font-size="18" font-weight="700" fill="#465365">동태평양</text>
+    <text x="500" y="151" font-size="18" font-weight="700" fill="#465365">무역풍</text>
+    <path d="M 730 177 H 270" fill="none" stroke="#465365" stroke-width="5" marker-end="url(#wind)"/>
+    <text x="210" y="207" font-size="17" fill="#1757a6">상승 기류 · 비 많음</text>
+    <text x="790" y="207" font-size="17" fill="#465365">하강 기류 · 비 적음</text>
+    <rect x="80" y="230" width="840" height="145" rx="6" fill="#dbeeff"/>
+    <path d="M 80 230 H 920 V 260 C 760 260 590 285 430 316 C 280 340 160 340 80 340 Z" fill="#ffe2c4"/>
+    <path d="M 850 272 C 700 272 570 294 440 316 C 300 337 170 340 80 340" fill="none" stroke="#a33b23" stroke-width="2"/>
+    <text x="245" y="270" font-size="18" font-weight="700" fill="#8c3d20">따뜻한 표층 해수</text>
+    <path d="M 480 289 H 260" fill="none" stroke="#a33b23" stroke-width="4" marker-end="url(#warm)"/>
+    <text x="500" y="360" font-size="17" fill="#1757a6">깊은 곳의 찬 해수</text>
+    <path d="M 800 355 V 274" fill="none" stroke="#1757a6" stroke-width="5" marker-end="url(#water)"/>
+    <text x="780" y="330" text-anchor="end" font-size="17" font-weight="700" fill="#1757a6">활발한 용승</text>
+    <text x="500" y="398" font-size="16" fill="#465365">따뜻한 물이 서쪽에 모이고, 동쪽에서는 영양분이 공급된다.</text>
+
+    <rect x="30" y="425" width="940" height="320" rx="14" fill="#f8fbff" stroke="#b9cadb" stroke-width="2"/>
+    <text x="68" y="456" text-anchor="start" font-size="22" font-weight="700" fill="#172333">엘니뇨</text>
+    <text x="210" y="486" font-size="18" font-weight="700" fill="#465365">서태평양</text>
+    <text x="790" y="486" font-size="18" font-weight="700" fill="#465365">동태평양</text>
+    <text x="500" y="486" font-size="18" font-weight="700" fill="#465365">무역풍 약화</text>
+    <path d="M 620 512 H 380" fill="none" stroke="#465365" stroke-width="3" marker-end="url(#wind)"/>
+    <text x="210" y="542" font-size="17" fill="#465365">평소보다 비 감소</text>
+    <text x="790" y="542" font-size="17" fill="#1757a6">상승 기류 · 비 증가</text>
+    <rect x="80" y="565" width="840" height="145" rx="6" fill="#dbeeff"/>
+    <path d="M 80 565 H 920 V 640 C 760 647 630 655 500 660 C 310 668 200 675 80 675 Z" fill="#ffe2c4"/>
+    <path d="M 80 675 C 200 675 310 668 500 660 C 630 655 760 647 920 640" fill="none" stroke="#a33b23" stroke-width="2"/>
+    <text x="500" y="602" font-size="18" font-weight="700" fill="#8c3d20">따뜻한 표층 해수가 동쪽으로 퍼짐</text>
+    <path d="M 340 622 H 670" fill="none" stroke="#a33b23" stroke-width="4" marker-end="url(#warm)"/>
+    <path d="M 800 695 V 654" fill="none" stroke="#1757a6" stroke-width="3" marker-end="url(#water)"/>
+    <text x="780" y="689" text-anchor="end" font-size="17" font-weight="700" fill="#1757a6">용승 약화</text>
+    <text x="500" y="733" font-size="16" fill="#465365">동쪽의 표층 수온이 높아지고, 비가 많이 오는 지역이 동쪽으로 이동한다.</text>
+    <text x="500" y="781" font-size="16" fill="#465365">화살표는 바람과 해수 이동의 방향을 나타냅니다.</text>
+  </g>
+</svg>
